@@ -1,3 +1,5 @@
-# React/Redux Video Sharing Website
+# React Video Sharing Website
 
-An implementation of a video sharing website like YouTube.com with React/Redux.
+Implementation of a video watching website like YouTube.com with React using YouTube API.
+
+##App ScreenShot

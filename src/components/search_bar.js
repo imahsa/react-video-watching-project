@@ -8,12 +8,13 @@ class SearchBar extends Component{
 	render(){
 		return(
 			<div className="search-bar">
-				<input 
+				<input
+					placeholder="Search for your favorite YouTube videos"
 					value={this.state.term}
-					onChange={event => this.onInputChange(event.target.value)} 
+					onChange={event => this.onInputChange(event.target.value)}
 				/>
 			</div>
-		); 
+		);
 	}
 
 	onInputChange(term){
